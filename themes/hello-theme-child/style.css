@@ -1,0 +1,323 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Add your custom styles here */
+
+/* body {
+    max-width: 1440px;
+} */
+
+#site-header {
+	padding-block-start: 0rem;
+	padding-block-end: 0rem;
+}
+
+.header-inner {
+	height: 80px;
+}
+.site-logo.show a {
+	margin-left: 30px;
+}
+
+#menu-item-92 a {
+	color: black;
+	font-family: syne;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 1.6rem 1.6rem 0rem 1.6rem;
+}
+
+#menu-item-91 a {
+	height: 80px;
+	background: #D2776A;
+	font-family: syne;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	padding: 1.6rem 3rem 0rem 3rem;
+}
+
+#menu-item-95 a {
+	color: black;
+	font-family: syne;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 1.6rem 1.6rem 0rem 1.6rem;
+}
+
+#menu-item-96 a {
+	color: black;
+	font-family: syne;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 1.6rem 2.5rem 0rem 1.6rem;
+}
+
+#menu-item-94 a {
+	font-family: syne;
+	font-size: 16px;
+	font-weight: 700;
+	height: 80px;
+	background: #D2776A;
+	color: white;
+	padding: 1.6rem 3rem 0rem 3rem;
+}
+
+
+/****** Formulaire Page Nous contacter***********/
+
+#form-field-Nom {
+	border: none;
+	border-radius: 8px;
+	height: 71px;
+	width: 383px;
+}
+
+#form-field-email {
+	border: none;
+	border-radius: 8px;
+	height: 71px;
+	width: 383px;
+}
+
+#form-field-6f0d50c {
+	border: none;
+	border-radius: 8px;
+	width: 383px;
+}
+
+#Envoyer {
+	border:none;
+	width: 199px;
+	height: 55px;
+}
+
+
+/****** Formulaire Page Commander***********/
+
+
+.colonne1 {
+	padding-right: 25px;
+	border-right: solid 1px #fff;
+}
+
+.colonne2 {
+	padding-left: 25px;
+}
+
+#nomformcomm {
+	box-sizing: border-box;
+	height: 71px;
+	background-color: #ffffff;
+	border-radius: 8px;
+}
+
+#IDEnvoiCommande {
+	justify-content: center;
+	border: none;
+	border-radius: 6px;
+	background-color:#E0B9B4;
+	width: 198px;
+	text-align: center;
+	height: 55px;
+	margin-top: 50px;
+	font-family: Syne;
+	font-size: 15px;
+	color: white;
+}
+
+.boutonenvoyercommande {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+
+#order-form .productimage {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#order-form .product-info {
+	position:relative;
+}
+
+#order-form .product-info div {
+	position:absolute;
+	z-index: 2;
+	top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#order-form .product-info h3 {
+	text-align: center;
+}
+
+#order-form .productimage div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 192px;
+	height: 128px;
+}
+
+
+#order-form .formcomnbr {
+	width: 39px;
+	height: 56px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 5px;
+	text-align:justify;
+	border: none;
+	border-radius: 0px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+#order-form hr {
+	height: 130px;
+	width: 100%;
+	border-bottom: solid white 2px;
+   }
+
+#order-form .formulairedeuxcolonnes {
+	display: flex;
+	margin-top: 50px;
+	margin-top: 80px;
+	border-left: 5px;
+	flex-wrap: wrap;
+}
+
+
+#order-form .formulairedeuxcolonnes article {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	flex-wrap: wrap;
+
+}
+
+#order-form .formulairedeuxcolonnes .boutonenbas {
+	width: 100%;
+}
+
+#order-form .formulairedeuxcolonnes label {
+	font-family: syne;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+
+#order-form .formulairedeuxcolonnes span {
+	margin-top: 20px;
+}
+
+
+@media (max-width: 1024px) {
+
+	#nomformcomm {
+		width: 300px;
+	}
+
+	#order-form .productimage div {
+		max-width: 170px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	#menu-item-92 a {
+		background: white;
+		margin-bottom: 20px;
+		box-shadow: none;
+	}
+
+	#menu-item-96 a {
+		background: white;
+		margin-bottom: 20px;
+		box-shadow: none;
+	}
+
+	#menu-item-95 a {
+		background: white;
+		box-shadow: none;
+	}
+
+	.claselementor-heading-title .elementor-size-default span {
+		color: var(--e-global-color-primary);
+		font-family: "Syne", Sans-serif;
+		font-size: 30px;
+		font-weight: 800;
+		text-transform: capitalize;
+	}
+
+	#order-form .productimage {
+		justify-content: center;
+	}
+	#order-form .productimage div {
+		height: 210px;
+		min-width: 220px;
+		margin-top: 30px;
+	}
+
+	#order-form .productimage h3 {
+		margin-top: -100px;
+	}
+
+	#order-form .formulairedeuxcolonnes {
+		display: block;
+		margin-top: 20px;
+	}
+
+	#order-form .formulairedeuxcolonnes h3 {
+		margin-bottom: 0px;
+		width: 318px;
+	}
+
+	#nomformcomm {
+		width: 300px;
+	}
+	
+	.colonne1 {
+		padding-right: 0px;
+		border-right: none;
+	}
+	
+	.colonne2 {
+		padding-left: 0px;
+		margin-top: 30px;
+	}
+	
+}
